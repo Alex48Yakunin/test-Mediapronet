@@ -1,0 +1,23 @@
+.button {
+    background: $color_accent;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    padding: 12px 24px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+
+    &:hover {
+        background-color: $color_text;
+    }
+}

@@ -1,0 +1,38 @@
+.form {
+    .form__block {
+        margin: 12px 0;
+    }
+
+    .form__block_checkbox {
+        padding-top: 12px;
+    }
+
+    .form__input {
+        border: 1px solid $color_alt;
+        border-radius: 4px;
+        width: 100%;
+        padding: 13px 24px;
+        background: transparent;
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        color: $color_text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+
+        &:focus {
+            border-color: $color_text;
+        }
+
+        &::placeholder {
+            color: $color_text_light;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

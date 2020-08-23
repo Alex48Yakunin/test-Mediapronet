@@ -1,0 +1,28 @@
+.colors {
+    position: relative;
+    z-index: 2;
+    display: flex;
+
+    .colors__element {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-right: -7px;
+    }
+
+    .colors__element_green {
+        background-color: #1DC560;
+    }
+
+    .colors__element_blue {
+        background-color: $color_accent;
+    }
+
+    .colors__element_yellow {
+        background-color: #EADB53;
+    }
+}

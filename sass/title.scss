@@ -1,0 +1,45 @@
+.title {
+    h1 {
+        color: #000000;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    h2 {
+        color: #000000;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .title__sub {
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: $color_text;
+            padding: 5px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        h1 {
+            font-weight: 500;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        h1 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+}
